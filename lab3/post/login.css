@@ -1,0 +1,119 @@
+body{
+    background-image:url("تنزيل.png");
+     background-position:center ;
+    
+}
+form{
+    margin-top: 1.5%;
+    box-shadow: 5px 6px 9px rgb(181, 120, 28),-5px -6px 9px rgb(234, 238, 219);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 500px;
+    background: rgba(255, 253, 253, 0.7);
+    border-radius: 15px;
+    font-size: 20px;
+}
+img{
+    box-shadow: 5px 4px 4px rgb(119, 90, 31 ,0.9),-5px -4px 4px rgb(216, 242, 123);
+    margin-left: 120px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    }
+  
+h2{
+    top: 8px;
+    color: rgb(83, 59, 3);
+    text-align: center;
+    margin: 0px;
+}
+input[type="text"],[type="password"]{
+    position: absolute;
+    outline: none;
+    width: 250px;
+    height: 35px;
+    background: none;
+    color: rgb(11, 11, 11);
+    border: 3px rgb(162, 100, 6) ridge;
+}
+input[type="text"]{
+    top: 140px;
+    left: 50px;
+    
+}
+input[type="password"]{
+    top: 210px;
+    left: 50px;
+    
+}
+::placeholder{
+    color: #988a8a;
+    text-align:center;
+ }
+
+
+.p{
+    direction: rtl;
+    position: absolute;
+    top: 400px;
+    right: 40px;
+    color:#552e05;
+    cursor: pointer;
+}.p:hover{
+
+   color: #0a799e; 
+}
+
+.box{
+    height: 500px;
+    width: 150;
+  background-color:bisque;
+  border: 20;
+  margin:200px;
+  color:black;
+  text-align: center;
+  padding: 20px;
+  
+  }
+  .lo{
+
+top: 30%;
+
+  }
+  .login-button {
+    cursor: pointer; 
+    box-shadow: 5px 4px 4px rgb(119, 90, 31 ,0.9),-4px -3px 4px rgb(216, 242, 123);
+    position: absolute;
+    top: 305px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: rgb(95, 61, 6);
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.login-button:hover {
+    background: #fff;
+    color: rgb(5, 5, 5);
+}
+.custom-alert {
+    display: none; /* مخفي بشكل افتراضي */
+    padding: 20px;
+    background-color: #ebac26; /* لون خلفية */
+    color: white; /* لون النص */
+    border: none;
+    width: 90%;
+    height: 100px;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 1000; /* فوق كل العناصر */
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+    font-size: 18px; 
+    transition: 0s;
+}
